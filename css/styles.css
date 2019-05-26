@@ -1,0 +1,193 @@
+body{
+      background-repeat: no-repeat;/*Profe acá está la propiedad que pediste!
+      Sólo porque no excedí el tamaño de la imagen de fondo no se ve el color de fondo*/
+      background-color: #a1c45a;
+      font-family: Arial;
+      color:#fafafa;
+}
+a{
+	color:#fafafa;
+	text-decoration: none;
+}
+.logo{
+  vertical-align:middle;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.header{
+	background-color: #a1c45a;
+	height:115px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.welcome{
+  /*font-family: 'Bitter', serif;*/
+	display: inline-block;
+  padding: 20px;
+	margin:0;
+	font-size: 45px;
+  vertical-align: middle;
+}
+.buttons
+{
+	font-size: 22px;
+	text-align: right;
+  position: absolute;
+  right: 10px;
+  bottom: 43px;
+}
+.button{
+  margin: 20px;
+}
+.image-bar{
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  background: rgb(255,255,255, 0.6);
+  margin: 15px 0 15px;
+}
+.image{
+position: relative;
+bottom: 6px;
+vertical-align:middle;
+margin: 0 100px 0;
+}
+
+.left-side{
+  border-radius: 20px;
+  display: inline-block;
+	height: 659px;
+	width: 143.75px;
+	background-color: #a1c45a;
+  padding: 8px;
+  border: 8px solid;
+}
+.left-header{
+  text-align: left;
+  margin-top: 0;
+}
+.main{
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  left: 200px;
+  right: 0;
+  background-color: #a1c45a;
+  background: rgb(161,196,90, 0.8);
+  width: auto;
+  height: auto;
+  margin-right: 8px;
+  margin-bottom: 8px;
+
+}
+.main-header{
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: fantasy;
+}
+.main-subheader{
+  margin-left: 20px;
+}
+.m-list{
+  margin-inline-start: 20px;
+  font-size: larger;
+}
+.comment{
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+/*CATALOGUE SECTION*/
+.subheader{
+  background: rgb(161,196,90, 0.7);
+  padding: 0;
+  border-radius: 20px;
+}
+.row{
+  text-align: center;
+}
+.fruits{
+  background: rgb(255,255,255, 0.4);
+  border-radius: 20px;
+}
+.fruit img{
+  height: 154px;
+  width: 150px;
+  border-radius: 20px;
+}
+.card{
+  vertical-align: middle;
+  position: static;
+  display: inline-block;
+  text-align: center;
+  background: rgb(161,196,90, 0.7);
+  border: solid 10px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width: 250px;
+  height: 250px;
+}
+.card p{
+  font-style: italic;
+}
+.card h3{
+  margin: 10px 0 8px;
+}
+/*ABOUT US SECTION*/
+.content h1{
+  font-size: 90px;
+  margin-top: 8px;
+  margin-bottom: 35px;
+}
+.content{
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  margin: 10px 0 10px;
+  border-radius: 20px;
+  height: auto;
+  padding: 10px;
+  background: rgb(161,196,90, 0.8);
+}
+.cuadros img{
+  border-radius: 20px;
+  border: solid 10px;
+  margin: 0 50px 0;
+  width: 200px;
+  height: 158px;
+}
+/*CONTACT SECTION*/
+.contact-header{
+  text-align: center;
+  font-size: 90px;
+  margin-top: 8px;
+  margin-bottom: 35px;
+}
+.info{
+  margin-left: 30px;
+}
+/*EMPLOYMENT SECTION*/
+.empleo img{
+  height: 200px;
+  width: 190px;
+  border-radius: 20px;
+}
+.empleo ul{
+   text-align:left;
+   font-size: 14px;
+}
+.empleo{
+  height: 450px;
+  width: 190px;
+  display: inline-block;
+  border-radius: 20px;
+  border: solid 10px;
+  margin: 0 20px 0;
+  text-align: center;
+  background-color: #a2a8d3;
+}
